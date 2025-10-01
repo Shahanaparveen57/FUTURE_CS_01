@@ -15,8 +15,7 @@ The main goal was to identify common security flaws (SQL Injection, XSS, CSRF, e
 - Burp Suite (Community Edition) → manual testing & intercepting requests  
 - OWASP ZAP → automated scanning for vulnerabilities  
 - SQLMap → testing for SQL injection  
-- Nikto → scanning for server-level issues  
-- Kali Linux / VirtualBox → safe testing environment
+
 
 ---
 
@@ -35,24 +34,22 @@ The main goal was to identify common security flaws (SQL Injection, XSS, CSRF, e
 
 ---
 
-##  Repo Layout  
-FUTURE_CS_01/
-│
-├── README.md
-├── Security_Report_Task1.pdf
-│
-├── screenshots/
-│ ├── sqli_test.png
-│ ├── xss_payload.png
-│ └── csrf_attack.png
-│
-├── logs/
-│ ├── zap_report.html
-│ ├── sqlmap_output.txt
-│ └── nikto_scan.txt
-│
-└── code/ (optional)
-└── test_script.py
+## Repo Layout  
+FUTURE_CS_01/  
+│  
+├── README.md  
+├── Security_Report_Task1.pdf  
+│  
+├── screenshots/  
+│   ├── 01_app_home.png  
+│   ├── 02_zap_findings.png  
+│   ├── 03_burp_request.png  
+│   ├── 04_sql_injection.png  
+│   └── 12_report_cover.png  
+│  
+├── logs/  
+│   └── zap_report.pdf  
+
 
 ---
 
